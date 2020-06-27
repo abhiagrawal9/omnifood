@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./vendors/css/normalize.css" />
+    <link rel="stylesheet" href="./vendors/css/grid.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
@@ -12,6 +13,32 @@
     <title>Omnifood</title>
   </head>
   <body>
-    <h1>Omnifood</h1>
+    <header class="main-header">
+      <nav>
+        <div class="row">
+          <img
+            src="./resources/img/logo-white.png"
+            class="logo"
+            alt="ominfood logo"
+          />
+          <ul class="main-nav">
+            <li><a href="#">FOOD DELIEVERY</a></li>
+            <li><a href="#">HOW IT WORKS</a></li>
+            <li><a href="#">OUR CITIES</a></li>
+            <li><a href="#">SIGN UP</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1>
+          Goodbye junk food. <br />
+          Hello super healthy meals.
+        </h1>
+        <a class="btn btn-full" href="#">I’m hungry</a>
+        <a class="btn btn-ghost" href="#">Show me more</a>
+      </div>
+    </header>
+
+    <div style="margin: 500px;"></div>
   </body>
 </html>
