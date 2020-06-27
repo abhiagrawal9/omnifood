@@ -137,12 +137,10 @@ section {
 }
 
 .box {
-    /* background-color: orangered; */
     padding: 1%;
 }
 
 .box p {
-    /* background-color: orangered; */
     font-size: 90%;
     line-height: 145%;
 }
@@ -152,4 +150,41 @@ section {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+.favourite-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.meal-photo img {
+    opacity: 0.7;;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    width: 100%;
+    height: auto;
+    transform: scale(1.03);
+    opacity: 1;
 }
